@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:blanchedalmond;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    border:3px solid black;
+    margin-top: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    background-color:red;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+h1{
+    text-align: center;
+}
